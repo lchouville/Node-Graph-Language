@@ -1,0 +1,13 @@
+@flowchart CompilerFlow
+// Nodes declarations
+parsing["Parsing step"]
+validation["Validation Step"]
+normalisation["Nomalisation Step"]
+rendering["Renering Step"]
+export["Exporting Step"]
+
+// edges declarations
+parsing -- validation
+validation -- normalisation
+normalisation -- rendering
+rendering -- export
