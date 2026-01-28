@@ -3,7 +3,7 @@
 parsing["Parsing step"]
 validation["Validation Step"]
 normalisation["Nomalisation Step"]
-rendering["Renering Step"]
+rendering["Rendering Step"]
 export["Exporting Step"]
 
 // edges declarations
