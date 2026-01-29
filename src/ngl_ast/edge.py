@@ -2,8 +2,8 @@ from typing import Optional
 
 class Edge:
     def __init__(self, src: str, tgt: str, label: Optional[str], line: int):
-        self.src = src
-        self.tgt = tgt
+        self.src = src # source
+        self.tgt = tgt # target
         self.label = label
         self.line = line
 

@@ -8,8 +8,10 @@ from ngl_semantic.validation import validate_flowchart
 def run(input_text):
     # Lexer
     tokens = tokenize(input_text)
+
     # Parser
     graph = parse(tokens)
+
     # Validation
     validation_errors =[]
     match graph.graph_type:

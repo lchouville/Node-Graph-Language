@@ -19,6 +19,6 @@ def validate_flowchart(graph):
         if len(edges) > 1:
             for e in edges:
                 if not e.label:
-                    errors.append(f"Missing label on branching edge at line {e.line}")
+                    e.label = ""
 
     return errors

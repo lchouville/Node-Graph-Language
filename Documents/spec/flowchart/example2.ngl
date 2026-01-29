@@ -1,0 +1,15 @@
+@flowchart multitask
+
+t1["Task 1"]
+t2a["Task 2.a"]
+t2b["Task 2.b"]
+t3["Task 3"]
+ex["exit"]
+re["Result"]
+
+t1 -- t2a
+t1 -- t2b
+t2a -- t2b
+t2b -- t3
+t3 --|"error"| ex
+t3 --|"OK"| re
