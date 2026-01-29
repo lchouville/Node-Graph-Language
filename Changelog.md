@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 This project follows Semantic Versioning.
 
+## [V.0.0.1] – 2026-01-29
+### Added
+- Multi node input and output render for flowchart
+
+### Changed
+- N/A
+
+### Fixed
+- N/A
+
+### Known limitations
+- loop are not working actually
+
 ## [V.0.0.0] – 2026-01-28
 ### Added
 - Initial specification of **Node Graph Language (NGL)**
